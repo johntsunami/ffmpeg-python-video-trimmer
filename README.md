@@ -12,6 +12,6 @@ ex ffmpeg-master-latest-win64-gpl.zip   since im using windows 64B
 
 #unzip ffmpeg to root.. aka C: drive ex. C:\ffmpeg-master-latest-win64-gpl
 
-# search variables in windows ... click edit the system variables -evironmental variables- new - add ffmpeg and path to folder- ok-ok -restart computer
+# search variables in windows ... click edit the system variables -evironmental variables- new - add ffmpeg to bariable name and and path to value ex.  "C:\ffmpeg-master-latest-win64-gpl" click ok-ok -restart computer
 
-You should be good to go from there.  I don't like the way this library is written.. not very user friendly in my opinion.  
+You should be good to go from there.  I don't like the way this libraries documentation is written.. not very user friendly in my opinion.  
