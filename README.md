@@ -14,4 +14,10 @@ ex ffmpeg-master-latest-win64-gpl.zip   since im using windows 64B
 
 # search variables in windows ... click edit the system variables -evironmental variables- new - add ffmpeg to bariable name and and path to value ex.  "C:\ffmpeg-master-latest-win64-gpl" click ok-ok -restart computer
 
-You should be good to go from there.  I don't like the way this libraries documentation is written.. not very user friendly in my opinion.  
+If youre getting a lot of path not found errors do this to make sure its installed correctly
+
+Run cmd as an administrator and set the environment path variable for ffmpeg by running the following command:
+setx /m PATH "C:\ffmpeg\bin;%PATH%"
+
+restart computer then check pip again with   version -ffmpeg to make sure its correctly installed. 
+
