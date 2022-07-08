@@ -8,6 +8,8 @@ REQUIREMENTS:
 pip install ffmpeg-python    # IF you previously installed ffmpeg you must uninstall both of them and reinstall this one. 
 
 download ffmpeg from their website https://ffmpeg.org/download.html  # download appropriate program based on cpu... I used https://github.com/BtbN/FFmpeg-Builds/releases and downloaded the latest NON-SHARED Version
+ex ffmpeg-master-latest-win64-gpl.zip   since im using windows 64B
+
 #unzip ffmpeg to root.. aka C: drive
 
 # search variables in windows ... click edit the system variables -evironmental variables- new - add ffmpeg and path to folder- ok-ok -restart computer
